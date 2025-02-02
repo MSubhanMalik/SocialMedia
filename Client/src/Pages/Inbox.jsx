@@ -83,7 +83,7 @@ function Inbox() {
             </div>
           </div>
         </div>
-        <div className="bg-white h-1/8 gap-x-2 flex items-center">
+        <div className="bg-white h-1/8 gap-x-2 flex mt-auto items-center">
           <BaseInput placeholder = "Type something" search={false} />
           <div className="rounded-full p-2 bg-gray-100">
             <MdKeyboardVoice size={25} className="rounded-full" />

@@ -25,7 +25,7 @@ function Home() {
           <Followers />
         </Sidebar>
       </div>
-      <div className="w-1/2">
+      <div className="w-1/2 flex items-center flex-col gap-y-2">
         <CreatePost />
         <Post />
       </div>

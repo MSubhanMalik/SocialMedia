@@ -1,17 +1,19 @@
+import BaseCarousal from "./Components/base/BaseCarousal";
 import Followers from "./Components/Followers";
 import Home from "./Pages/Home";
 import Inbox from "./Pages/Inbox";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
+import Settings from "./Pages/Settings";
 
 const routes = [
     {
         element: <Home />, 
         path: "/",
-    }, 
+    },
     {
-        element: <Followers />, 
-        path: "/test"
+        element: <Settings />, 
+        path: "/settings"
     },
     {
         element: <Login />, 
